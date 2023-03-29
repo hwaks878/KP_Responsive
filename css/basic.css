@@ -1,0 +1,17 @@
+/* Standard defaults for a page */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
