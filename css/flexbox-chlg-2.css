@@ -32,6 +32,9 @@ img {
   justify-content: space-between;
   /* border: 2px solid pink; */
 }
+.hero {
+  margin-bottom: 50px;
+}
 .hero-text {
   width: 65%;
 }
@@ -51,4 +54,26 @@ img {
   border: 2px solid #38cfd9;
   border-radius: 100px;
   padding: 12px 50px;
+}
+
+.left-hand-col {
+  width: 65%;
+}
+.left-hand-col h2 {
+  color: #136c72;
+  font-size: 36px;
+}
+.right-hand-col {
+  text-align: center;
+  background-color: #136c72;
+  color: #fff;
+  width: 30%;
+  padding: 30px 50px;
+}
+.right-hand-col h2 {
+  font-size: 36px;
+}
+.left-hand-col p,
+.right-hand-col p {
+  font-size: 16px;
 }
